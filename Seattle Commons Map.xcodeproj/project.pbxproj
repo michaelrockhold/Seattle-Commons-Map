@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CACFA12227157920003CFBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CACFA11227157920003CFBC /* AppDelegate.swift */; };
+		4CACFA14227157920003CFBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CACFA13227157920003CFBC /* ViewController.swift */; };
+		4CACFA17227157920003CFBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CACFA15227157920003CFBC /* Main.storyboard */; };
+		4CACFA1A227157920003CFBC /* Seattle_Commons_Map.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CACFA18227157920003CFBC /* Seattle_Commons_Map.xcdatamodeld */; };
+		4CACFA1C227157950003CFBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CACFA1B227157950003CFBC /* Assets.xcassets */; };
+		4CACFA1F227157950003CFBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CACFA1D227157950003CFBC /* LaunchScreen.storyboard */; };
+		4CACFA2A227157950003CFBC /* Seattle_Commons_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CACFA29227157950003CFBC /* Seattle_Commons_MapTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CACFA26227157950003CFBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CACFA06227157910003CFBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CACFA0D227157920003CFBC;
+			remoteInfo = "Seattle Commons Map";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CACFA0E227157920003CFBC /* Seattle Commons Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seattle Commons Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CACFA11227157920003CFBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CACFA13227157920003CFBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CACFA16227157920003CFBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CACFA19227157920003CFBC /* Seattle_Commons_Map.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Seattle_Commons_Map.xcdatamodel; sourceTree = "<group>"; };
+		4CACFA1B227157950003CFBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CACFA1E227157950003CFBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CACFA20227157950003CFBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CACFA25227157950003CFBC /* Seattle Commons MapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seattle Commons MapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CACFA29227157950003CFBC /* Seattle_Commons_MapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seattle_Commons_MapTests.swift; sourceTree = "<group>"; };
+		4CACFA2B227157950003CFBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CACFA0B227157920003CFBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CACFA22227157950003CFBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CACFA05227157910003CFBC = {
+			isa = PBXGroup;
+			children = (
+				4CACFA10227157920003CFBC /* Seattle Commons Map */,
+				4CACFA28227157950003CFBC /* Seattle Commons MapTests */,
+				4CACFA0F227157920003CFBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CACFA0F227157920003CFBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CACFA0E227157920003CFBC /* Seattle Commons Map.app */,
+				4CACFA25227157950003CFBC /* Seattle Commons MapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CACFA10227157920003CFBC /* Seattle Commons Map */ = {
+			isa = PBXGroup;
+			children = (
+				4CACFA11227157920003CFBC /* AppDelegate.swift */,
+				4CACFA13227157920003CFBC /* ViewController.swift */,
+				4CACFA15227157920003CFBC /* Main.storyboard */,
+				4CACFA1B227157950003CFBC /* Assets.xcassets */,
+				4CACFA1D227157950003CFBC /* LaunchScreen.storyboard */,
+				4CACFA20227157950003CFBC /* Info.plist */,
+				4CACFA18227157920003CFBC /* Seattle_Commons_Map.xcdatamodeld */,
+			);
+			path = "Seattle Commons Map";
+			sourceTree = "<group>";
+		};
+		4CACFA28227157950003CFBC /* Seattle Commons MapTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CACFA29227157950003CFBC /* Seattle_Commons_MapTests.swift */,
+				4CACFA2B227157950003CFBC /* Info.plist */,
+			);
+			path = "Seattle Commons MapTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CACFA0D227157920003CFBC /* Seattle Commons Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CACFA2E227157950003CFBC /* Build configuration list for PBXNativeTarget "Seattle Commons Map" */;
+			buildPhases = (
+				4CACFA0A227157920003CFBC /* Sources */,
+				4CACFA0B227157920003CFBC /* Frameworks */,
+				4CACFA0C227157920003CFBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Seattle Commons Map";
+			productName = "Seattle Commons Map";
+			productReference = 4CACFA0E227157920003CFBC /* Seattle Commons Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CACFA24227157950003CFBC /* Seattle Commons MapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CACFA31227157950003CFBC /* Build configuration list for PBXNativeTarget "Seattle Commons MapTests" */;
+			buildPhases = (
+				4CACFA21227157950003CFBC /* Sources */,
+				4CACFA22227157950003CFBC /* Frameworks */,
+				4CACFA23227157950003CFBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CACFA27227157950003CFBC /* PBXTargetDependency */,
+			);
+			name = "Seattle Commons MapTests";
+			productName = "Seattle Commons MapTests";
+			productReference = 4CACFA25227157950003CFBC /* Seattle Commons MapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CACFA06227157910003CFBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Michael Rockhold";
+				TargetAttributes = {
+					4CACFA0D227157920003CFBC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					4CACFA24227157950003CFBC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4CACFA0D227157920003CFBC;
+					};
+				};
+			};
+			buildConfigurationList = 4CACFA09227157910003CFBC /* Build configuration list for PBXProject "Seattle Commons Map" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CACFA05227157910003CFBC;
+			productRefGroup = 4CACFA0F227157920003CFBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CACFA0D227157920003CFBC /* Seattle Commons Map */,
+				4CACFA24227157950003CFBC /* Seattle Commons MapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CACFA0C227157920003CFBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CACFA1F227157950003CFBC /* LaunchScreen.storyboard in Resources */,
+				4CACFA1C227157950003CFBC /* Assets.xcassets in Resources */,
+				4CACFA17227157920003CFBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CACFA23227157950003CFBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CACFA0A227157920003CFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CACFA14227157920003CFBC /* ViewController.swift in Sources */,
+				4CACFA1A227157920003CFBC /* Seattle_Commons_Map.xcdatamodeld in Sources */,
+				4CACFA12227157920003CFBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CACFA21227157950003CFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CACFA2A227157950003CFBC /* Seattle_Commons_MapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CACFA27227157950003CFBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CACFA0D227157920003CFBC /* Seattle Commons Map */;
+			targetProxy = 4CACFA26227157950003CFBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CACFA15227157920003CFBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CACFA16227157920003CFBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CACFA1D227157950003CFBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CACFA1E227157950003CFBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CACFA2C227157950003CFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CACFA2D227157950003CFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CACFA2F227157950003CFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYU6NE7WY6;
+				INFOPLIST_FILE = "Seattle Commons Map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.appel-rockhold.Seattle-Commons-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CACFA30227157950003CFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYU6NE7WY6;
+				INFOPLIST_FILE = "Seattle Commons Map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.appel-rockhold.Seattle-Commons-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CACFA32227157950003CFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYU6NE7WY6;
+				INFOPLIST_FILE = "Seattle Commons MapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.appel-rockhold.Seattle-Commons-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seattle Commons Map.app/Seattle Commons Map";
+			};
+			name = Debug;
+		};
+		4CACFA33227157950003CFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYU6NE7WY6;
+				INFOPLIST_FILE = "Seattle Commons MapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.appel-rockhold.Seattle-Commons-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seattle Commons Map.app/Seattle Commons Map";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CACFA09227157910003CFBC /* Build configuration list for PBXProject "Seattle Commons Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CACFA2C227157950003CFBC /* Debug */,
+				4CACFA2D227157950003CFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CACFA2E227157950003CFBC /* Build configuration list for PBXNativeTarget "Seattle Commons Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CACFA2F227157950003CFBC /* Debug */,
+				4CACFA30227157950003CFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CACFA31227157950003CFBC /* Build configuration list for PBXNativeTarget "Seattle Commons MapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CACFA32227157950003CFBC /* Debug */,
+				4CACFA33227157950003CFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4CACFA18227157920003CFBC /* Seattle_Commons_Map.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4CACFA19227157920003CFBC /* Seattle_Commons_Map.xcdatamodel */,
+			);
+			currentVersion = 4CACFA19227157920003CFBC /* Seattle_Commons_Map.xcdatamodel */;
+			path = Seattle_Commons_Map.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4CACFA06227157910003CFBC /* Project object */;
+}

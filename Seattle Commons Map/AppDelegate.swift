@@ -7,16 +7,28 @@
 //
 
 import UIKit
+import MapKit
 import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    let mapDataSource = MapDataSource(startingCenter: CLLocationCoordinate2D(latitude: 47.622957, longitude: -122.33845),
+                                          startingZoomLevel: 14,
+                                          mapboxStyleURL:  URL(string: "mapbox://styles/mapbox/streets-v11")!)
+    
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        OperationQueue.current?.addOperation {
+            if let window = self.window {
+                window.rootViewController = MapViewController(nibName: nil, bundle: nil,
+                                                              mapDataSource: self.mapDataSource)
+                window.makeKeyAndVisible()
+            }
+        }
         return true
     }
 

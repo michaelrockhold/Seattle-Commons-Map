@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		337EA820F3FB248C045CAB69 /* Pods_Seattle_Commons_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAA9EBAC718F63F6BFC27C8 /* Pods_Seattle_Commons_Map.framework */; };
+		4C8CA59522724D3600D7D487 /* features.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 4C8CA59422724D3600D7D487 /* features.geojson */; };
+		4C8CA5982272698A00D7D487 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4C8CA5972272698900D7D487 /* README.md */; };
 		4CACFA12227157920003CFBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CACFA11227157920003CFBC /* AppDelegate.swift */; };
-		4CACFA14227157920003CFBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CACFA13227157920003CFBC /* ViewController.swift */; };
-		4CACFA17227157920003CFBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CACFA15227157920003CFBC /* Main.storyboard */; };
+		4CACFA14227157920003CFBC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CACFA13227157920003CFBC /* MapViewController.swift */; };
 		4CACFA1A227157920003CFBC /* Seattle_Commons_Map.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CACFA18227157920003CFBC /* Seattle_Commons_Map.xcdatamodeld */; };
 		4CACFA1C227157950003CFBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CACFA1B227157950003CFBC /* Assets.xcassets */; };
 		4CACFA1F227157950003CFBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CACFA1D227157950003CFBC /* LaunchScreen.storyboard */; };
 		4CACFA2A227157950003CFBC /* Seattle_Commons_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CACFA29227157950003CFBC /* Seattle_Commons_MapTests.swift */; };
+		4CE169DA2272288D00AF1E82 /* MapDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE169D92272288D00AF1E82 /* MapDataSource.swift */; };
+		FE189C7F30807BC4B50040B4 /* Pods_Seattle_Commons_MapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B885B8DE35D9CB2264261D9 /* Pods_Seattle_Commons_MapTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +31,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045C57239404D7214507B26B /* Pods-Seattle Commons MapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seattle Commons MapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Seattle Commons MapTests/Pods-Seattle Commons MapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		05C671CAA6B6570DD94EC383 /* Pods-Seattle Commons Map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seattle Commons Map.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Seattle Commons Map/Pods-Seattle Commons Map.debug.xcconfig"; sourceTree = "<group>"; };
+		2BAA9EBAC718F63F6BFC27C8 /* Pods_Seattle_Commons_Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seattle_Commons_Map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B885B8DE35D9CB2264261D9 /* Pods_Seattle_Commons_MapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seattle_Commons_MapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8CA59422724D3600D7D487 /* features.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = features.geojson; sourceTree = "<group>"; };
+		4C8CA5972272698900D7D487 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4CACFA0E227157920003CFBC /* Seattle Commons Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seattle Commons Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CACFA11227157920003CFBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CACFA13227157920003CFBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4CACFA16227157920003CFBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CACFA13227157920003CFBC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		4CACFA19227157920003CFBC /* Seattle_Commons_Map.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Seattle_Commons_Map.xcdatamodel; sourceTree = "<group>"; };
 		4CACFA1B227157950003CFBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CACFA1E227157950003CFBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +47,9 @@
 		4CACFA25227157950003CFBC /* Seattle Commons MapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seattle Commons MapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CACFA29227157950003CFBC /* Seattle_Commons_MapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seattle_Commons_MapTests.swift; sourceTree = "<group>"; };
 		4CACFA2B227157950003CFBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE169D92272288D00AF1E82 /* MapDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataSource.swift; sourceTree = "<group>"; };
+		9D0EEC227842EC4D71616A37 /* Pods-Seattle Commons MapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seattle Commons MapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Seattle Commons MapTests/Pods-Seattle Commons MapTests.release.xcconfig"; sourceTree = "<group>"; };
+		A5A2EDB3611D60ADDCF95E74 /* Pods-Seattle Commons Map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seattle Commons Map.release.xcconfig"; path = "Pods/Target Support Files/Pods-Seattle Commons Map/Pods-Seattle Commons Map.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337EA820F3FB248C045CAB69 /* Pods_Seattle_Commons_Map.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +65,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE189C7F30807BC4B50040B4 /* Pods_Seattle_Commons_MapTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C41270E7DA571AC4EF6EA83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05C671CAA6B6570DD94EC383 /* Pods-Seattle Commons Map.debug.xcconfig */,
+				A5A2EDB3611D60ADDCF95E74 /* Pods-Seattle Commons Map.release.xcconfig */,
+				045C57239404D7214507B26B /* Pods-Seattle Commons MapTests.debug.xcconfig */,
+				9D0EEC227842EC4D71616A37 /* Pods-Seattle Commons MapTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4CACFA05227157910003CFBC = {
 			isa = PBXGroup;
 			children = (
+				4C8CA5972272698900D7D487 /* README.md */,
 				4CACFA10227157920003CFBC /* Seattle Commons Map */,
 				4CACFA28227157950003CFBC /* Seattle Commons MapTests */,
 				4CACFA0F227157920003CFBC /* Products */,
+				2C41270E7DA571AC4EF6EA83 /* Pods */,
+				D41758DAB704C0AADFAB4D93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +107,14 @@
 		4CACFA10227157920003CFBC /* Seattle Commons Map */ = {
 			isa = PBXGroup;
 			children = (
+				4C8CA59422724D3600D7D487 /* features.geojson */,
 				4CACFA11227157920003CFBC /* AppDelegate.swift */,
-				4CACFA13227157920003CFBC /* ViewController.swift */,
-				4CACFA15227157920003CFBC /* Main.storyboard */,
+				4CACFA13227157920003CFBC /* MapViewController.swift */,
 				4CACFA1B227157950003CFBC /* Assets.xcassets */,
 				4CACFA1D227157950003CFBC /* LaunchScreen.storyboard */,
 				4CACFA20227157950003CFBC /* Info.plist */,
 				4CACFA18227157920003CFBC /* Seattle_Commons_Map.xcdatamodeld */,
+				4CE169D92272288D00AF1E82 /* MapDataSource.swift */,
 			);
 			path = "Seattle Commons Map";
 			sourceTree = "<group>";
@@ -99,6 +128,15 @@
 			path = "Seattle Commons MapTests";
 			sourceTree = "<group>";
 		};
+		D41758DAB704C0AADFAB4D93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BAA9EBAC718F63F6BFC27C8 /* Pods_Seattle_Commons_Map.framework */,
+				3B885B8DE35D9CB2264261D9 /* Pods_Seattle_Commons_MapTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CACFA2E227157950003CFBC /* Build configuration list for PBXNativeTarget "Seattle Commons Map" */;
 			buildPhases = (
+				AFD4F6CBD4C4CA182EB75E3A /* [CP] Check Pods Manifest.lock */,
 				4CACFA0A227157920003CFBC /* Sources */,
 				4CACFA0B227157920003CFBC /* Frameworks */,
 				4CACFA0C227157920003CFBC /* Resources */,
+				6FE137EC38BBB48C4062F867 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CACFA31227157950003CFBC /* Build configuration list for PBXNativeTarget "Seattle Commons MapTests" */;
 			buildPhases = (
+				EE72C7080D2F1C9200452EC6 /* [CP] Check Pods Manifest.lock */,
 				4CACFA21227157950003CFBC /* Sources */,
 				4CACFA22227157950003CFBC /* Frameworks */,
 				4CACFA23227157950003CFBC /* Resources */,
@@ -180,9 +221,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8CA59522724D3600D7D487 /* features.geojson in Resources */,
 				4CACFA1F227157950003CFBC /* LaunchScreen.storyboard in Resources */,
+				4C8CA5982272698A00D7D487 /* README.md in Resources */,
 				4CACFA1C227157950003CFBC /* Assets.xcassets in Resources */,
-				4CACFA17227157920003CFBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,13 +237,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6FE137EC38BBB48C4062F867 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Seattle Commons Map/Pods-Seattle Commons Map-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Seattle Commons Map/Pods-Seattle Commons Map-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFD4F6CBD4C4CA182EB75E3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Seattle Commons Map-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE72C7080D2F1C9200452EC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Seattle Commons MapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CACFA0A227157920003CFBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CACFA14227157920003CFBC /* ViewController.swift in Sources */,
+				4CACFA14227157920003CFBC /* MapViewController.swift in Sources */,
 				4CACFA1A227157920003CFBC /* Seattle_Commons_Map.xcdatamodeld in Sources */,
+				4CE169DA2272288D00AF1E82 /* MapDataSource.swift in Sources */,
 				4CACFA12227157920003CFBC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,14 +327,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4CACFA15227157920003CFBC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CACFA16227157920003CFBC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4CACFA1D227157950003CFBC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -362,6 +456,7 @@
 		};
 		4CACFA2F227157950003CFBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C671CAA6B6570DD94EC383 /* Pods-Seattle Commons Map.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -371,6 +466,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MAPBOXACCESSTOKEN = "set this to your MGMapboxAccessToken from your MB account";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.appel-rockhold.Seattle-Commons-Map";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -380,6 +476,7 @@
 		};
 		4CACFA30227157950003CFBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A2EDB3611D60ADDCF95E74 /* Pods-Seattle Commons Map.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -389,6 +486,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MAPBOXACCESSTOKEN = "set this to your MGMapboxAccessToken from your MB account";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.appel-rockhold.Seattle-Commons-Map";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -398,6 +496,7 @@
 		};
 		4CACFA32227157950003CFBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 045C57239404D7214507B26B /* Pods-Seattle Commons MapTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -419,6 +518,7 @@
 		};
 		4CACFA33227157950003CFBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D0EEC227842EC4D71616A37 /* Pods-Seattle Commons MapTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

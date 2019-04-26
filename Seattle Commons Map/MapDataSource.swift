@@ -46,24 +46,34 @@ class MapDataSource: NSObject, MGLMapViewDelegate {
         }
     }
     
+    func name(of annotation: MGLShape) -> String? {
+        if let attributes = annotation.value(forKey:"attributes") as! Dictionary<String,Any>?,
+            let name = attributes["name"] as! String? {
+                return name
+        }
+        return nil
+    }
+    
     func mapView(_ mapView: MGLMapView, alphaForShapeAnnotation annotation: MGLShape) -> CGFloat {
-        return 0.85
+        return 0.75
     }
     
     func mapView(_ mapView: MGLMapView, lineWidthForPolylineAnnotation annotation: MGLPolyline) -> CGFloat {
         // Set the line width for polyline annotations
-        return 2.0
+        return 3.0
     }
     
     func mapView(_ mapView: MGLMapView, strokeColorForShapeAnnotation annotation: MGLShape) -> UIColor {
-        // Give our polyline a unique color by checking for its `title` property
-        let b:CGFloat = 208/255
-        if (annotation.title == "Crema to Council Crest" && annotation is MGLPolyline) {
-            // Mapbox cyan
-            return UIColor(red: 59/255, green: 178/255, blue: b, alpha: 1)
-        } else {
-            return .red
+        
+        if let name = name(of: annotation) {
+            if name.contains("green street") || name == "Seattle Commons Park" {
+                return .green
+            }
         }
+        return .red
     }
 
+    func mapView(_ mapView: MGLMapView, fillColorForPolygonAnnotation annotation: MGLPolygon) -> UIColor {
+        return .green
+    }
 }

@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     let mapDataSource = MapDataSource(startingCenter: CLLocationCoordinate2D(latitude: 47.622957, longitude: -122.33845),
                                           startingZoomLevel: 14,
-                                          mapboxStyleURL:  URL(string: "mapbox://styles/mapbox/streets-v11")!)
+                                          mapboxStyleURL: MAPBOXSTYLEURL)
     
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

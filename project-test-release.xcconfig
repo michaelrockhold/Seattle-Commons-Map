@@ -1,0 +1,2 @@
+#include "secrets.xcconfig"
+#include "Pods/Target Support Files/Pods-Seattle Commons MapTests/Pods-Seattle Commons MapTests.release.xcconfig"

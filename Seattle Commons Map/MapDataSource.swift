@@ -47,8 +47,7 @@ class MapDataSource: NSObject, MGLMapViewDelegate {
     }
     
     func mapView(_ mapView: MGLMapView, alphaForShapeAnnotation annotation: MGLShape) -> CGFloat {
-        // Set the alpha for all shape annotations to 1 (full opacity)
-        return 1
+        return 0.85
     }
     
     func mapView(_ mapView: MGLMapView, lineWidthForPolylineAnnotation annotation: MGLPolyline) -> CGFloat {
@@ -58,9 +57,10 @@ class MapDataSource: NSObject, MGLMapViewDelegate {
     
     func mapView(_ mapView: MGLMapView, strokeColorForShapeAnnotation annotation: MGLShape) -> UIColor {
         // Give our polyline a unique color by checking for its `title` property
+        let b:CGFloat = 208/255
         if (annotation.title == "Crema to Council Crest" && annotation is MGLPolyline) {
             // Mapbox cyan
-            return UIColor(red: 59/255, green: 178/255, blue: 208/255, alpha: 1)
+            return UIColor(red: 59/255, green: 178/255, blue: b, alpha: 1)
         } else {
             return .red
         }

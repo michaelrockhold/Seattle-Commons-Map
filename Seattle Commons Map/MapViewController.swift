@@ -42,22 +42,22 @@ class MapViewController: UIViewController {
         
         mapView.showsUserLocation = mapDataSource.showsUserLocation
         
-        // Get the path for example.geojson in the app's bundle
-        let jsonPath = Bundle.main.path(forResource: "features", ofType: "geojson")
-
-        mapDataSource.loadFeatures(at: URL(fileURLWithPath: jsonPath!)) { features in
-            if let features = features {
-                // Add the annotation (if any) on the main thread
-                guard features.count > 0 else {
-                    return
-                }
-                DispatchQueue.main.async(execute: {
-                    // Unowned reference to self to prevent retain cycle
-                    [unowned self] in
-                    self.mapView.addAnnotations(features)
-                })
-            }
-        }
+//        // Get the path for example.geojson in the app's bundle
+//        let jsonPath = Bundle.main.path(forResource: "features", ofType: "geojson")
+//
+//        mapDataSource.loadFeatures(at: URL(fileURLWithPath: jsonPath!)) { features in
+//            if let features = features {
+//                // Add the annotation (if any) on the main thread
+//                guard features.count > 0 else {
+//                    return
+//                }
+//                DispatchQueue.main.async(execute: {
+//                    // Unowned reference to self to prevent retain cycle
+//                    [unowned self] in
+//                    self.mapView.addAnnotations(features)
+//                })
+//            }
+//        }
     }
 
 }
